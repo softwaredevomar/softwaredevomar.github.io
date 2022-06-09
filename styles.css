@@ -1,5 +1,6 @@
 .ui-body-d.ui-content
 {
   margin: 1em auto;
-  width: 50%;
+  width: auto;
+  text-align: center;
 }
