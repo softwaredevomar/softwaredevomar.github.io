@@ -1,6 +1,6 @@
 .ui-body-d.ui-content
 {
   margin: 1em auto;
-  width: auto;
-  text-align: center;
+  width: 600px;
+  border: 2px 2px;
 }
