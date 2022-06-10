@@ -6,7 +6,74 @@
 
 <title>Final Project</title>
 
-<link href="https://softwaredevomar.github.io/moduleOneFinal/style.css" type="text/css" rel="stylesheet">
+<style>
+  body
+  {
+    background-color: cadetblue;
+    text-align: center;
+  }
+
+  #idCard
+  {
+    margin: 4em auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  label
+  {
+    font-weight: bold;
+  }
+  input
+  {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+
+  img {
+
+  width: 90px;
+
+  height: 90px;
+
+  float: left;
+
+  }
+
+  #idCard {
+
+  background-color: lightpink;
+
+  border: 5px solid black;
+
+  border-radius: 15px;
+
+  height: 14em;
+
+  width: 25em;
+
+  }
+
+  #postFullName
+  {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #postAge
+  {
+    text-align: left;
+    margin-left: 0.4em;
+  }
+  #postPhoneNumber
+  {
+    text-align: left;
+    margin-left: 0.4em;
+  }
+  #postAddress
+  {
+    text-align: left;
+    margin-left: 0.4em;
+  }
+</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&ampdisplay=swap" rel="stylesheet">
@@ -46,7 +113,35 @@
 </div>
 
 
-<script src="https://softwaredevomar.github.io/moduleOneFinal/script.js"></script>
+<script>
+  function idCard()
+  {
+    var firstName = document.getElementById("fName").value;
+    var lastName = document.getElementById("lName").value;
+    var address = document.getElementById("address").value;
+
+    document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
+    document.getElementById("postAddress").innerHTML = address;
+
+    var age = parseInt(document.getElementById("age").value);
+    var phoneNumber = document.getElementById("phoneNumber").value;
+
+    var numberArray = [];
+    numberArray.push(age, phoneNumber);
+
+    for(var i = 0; i < numberArray.length; i++)
+    {
+      if(numberArray[i] <= 100)
+      {
+        document.getElementById("postAge").innerHTML = "Age: " + age;
+      }
+      else if(numberArray[i] > 100)
+      {
+        document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber 
+      }
+    }
+  }
+</script>
 </body>
 
 </html>
