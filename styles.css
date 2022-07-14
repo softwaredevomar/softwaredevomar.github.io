@@ -1,9 +1,5 @@
 .ui-body-d.ui-content
 {
-  max-width: 500px;
-  margin: auto;
-}
-.resume
-{
   max-width: 1080px;
+  margin: auto;
 }
