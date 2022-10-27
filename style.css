@@ -25,39 +25,9 @@ div {
 .navbar {
     overflow: hidden;
     position: relative;
-    height: auto;
+    height: 7vh;
     background-color: royalblue;
     grid-area: side;
-}
-
-.navbar #myLinks {
-    display: none;
-}
-
-.navbar a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.navbar a.icon {
-    background-color: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.active {
-    background-color: royalblue;
-    color: white;
 }
 
 #content1 {
@@ -113,7 +83,7 @@ footer {
         height: 7vh;
     }
 
-    .container {
+    .mobile-container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
         grid-template-areas:
