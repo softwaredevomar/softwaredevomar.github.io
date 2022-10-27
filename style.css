@@ -12,7 +12,7 @@ div {
     grid-template-columns: 2fr;
     grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
     grid-template-areas:
-        "side"
+        "navbar"
         "header"
         "content1"
         "content2"
@@ -22,12 +22,10 @@ div {
         "footer";
     }
 
-.navbar {
-    overflow: hidden;
-    position: relative;
+#navbar {
     height: 7vh;
     background-color: royalblue;
-    grid-area: side;
+    grid-area: navbar;
 }
 
 #content1 {
@@ -87,7 +85,7 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
         grid-template-areas:
-            "side"
+            "navbar"
             "header"
             "content1"
             "content2"
