@@ -9,12 +9,17 @@ div {
     display: grid;
     height: 64vh;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 1.2fr 1.2fr 0.3fr;
-    grid-template-areas: "side header header header header header header header header header header header header"
-        "side content1 content1 content1 content1 content2 content2 content2 content2 content3 content3 content3 content3"
-        "side image1 image1 image1 image1 image1 image1 image2 image2 image2 image2 image2 image2"
-        "side footer footer footer footer footer footer footer footer footer footer footer footer";
-}
+    grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
+    grid-template-areas:
+        "side"
+        "header"
+        "content1"
+        "content2"
+        "content3"
+        "image1"
+        "image2"
+        "footer";
+    }
 
 #side {
     height: 100%;
