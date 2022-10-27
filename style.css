@@ -37,6 +37,7 @@ a:link, a:visited, a:hover, a:active {
     height: 25vh;
     background-color: grey;
     grid-area: content1;
+    padding: 20px;
 }
 
 #content2 {
