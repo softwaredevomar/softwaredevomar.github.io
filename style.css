@@ -37,19 +37,21 @@ a:link, a:visited, a:hover, a:active {
     height: 25vh;
     background-color: grey;
     grid-area: content1;
-    padding: 20px;
+    padding: 30px;
 }
 
 #content2 {
     height: 25vh;
     background-color: grey;
     grid-area: content2;
+    padding: 30px;
 }
 
 #content3 {
     height: 25vh;
     background-color: grey;
     grid-area: content3;
+    padding: 30px;
 }
 
 #image1 {
@@ -71,6 +73,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 footer {
@@ -80,6 +83,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 @media only screen and (max-width: 550px) {
