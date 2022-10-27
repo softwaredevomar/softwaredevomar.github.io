@@ -25,7 +25,7 @@ div {
 .navbar {
     overflow: hidden;
     position: relative;
-    height: 7vh;
+    height: auto;
     background-color: royalblue;
     grid-area: side;
 }
