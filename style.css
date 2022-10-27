@@ -48,7 +48,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #content2-wrapper {
-    justify-content: flex-start;
+    flex-flow: column wrap;
 }
 
 #content3 {
