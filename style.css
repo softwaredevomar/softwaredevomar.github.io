@@ -47,6 +47,10 @@ a:link, a:visited, a:hover, a:active {
     padding: 30px;
 }
 
+#content2-wrapper {
+    justify-content: flex-start;
+}
+
 #content3 {
     height: 25vh;
     background-color: grey;
