@@ -5,7 +5,8 @@ div {
     align-items: center;
 }
 
-.container {
+.mobile-container {
+    margin: auto;
     display: grid;
     height: 64vh;
     grid-template-columns: 2fr;
@@ -21,7 +22,7 @@ div {
         "footer";
     }
 
-#side {
+.navbar {
     overflow: hidden;
     position: relative;
     height: 7vh;
@@ -29,11 +30,11 @@ div {
     grid-area: side;
 }
 
-#side #myLinks {
+.navbar #myLinks {
     display: none;
 }
 
-#side a {
+.navbar a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,7 +42,7 @@ div {
     display: block;
 }
 
-#side a.icon {
+.navbar a.icon {
     background-color: black;
     display: block;
     position: absolute;
@@ -49,7 +50,7 @@ div {
     top: 0;
 }
 
-#side a:hover {
+.navbar a:hover {
     background-color: #ddd;
     color: black;
 }
