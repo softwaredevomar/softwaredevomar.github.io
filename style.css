@@ -233,6 +233,11 @@ a.nav-link{
 ──────────────────*/
 
 #certifications{
+	text-align:center;
+        color: var(--main-fonts-color);
+	z-index: 1;
+	margin: auto;
+	padding: 20px;
 }
 
 /*──────────────────
