@@ -233,15 +233,15 @@ a.nav-link{
 ──────────────────*/
 
 #certifications{
-	background-color: #E6E6FA;
+	background-color: #778899;
 	text-align: center;
-        color: var(--main-fonts-color);
+        color: white;
 	z-index: 1;
 	margin: auto;
 	padding: 20px;
 }
 #certs-heading{
-	color: black;
+	color: white;
 	font-size: 60px;
 	text-shadow: none;
 }
