@@ -240,6 +240,10 @@ a.nav-link{
 	margin: auto;
 	padding: 20px;
 }
+#certs-heading{
+	color: black;
+	font-size: 60px;
+}
 
 /*──────────────────
       Contact
