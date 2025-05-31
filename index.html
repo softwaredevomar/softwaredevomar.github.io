@@ -1,131 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Portfolio site</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Portfolio site</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+		<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
 	  
-        <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
-		<a class="logo" href="#home">
-              <img src="./assets/Me.jpg" alt="omar logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#certifications">Certifications</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Omar Ahmed<hr></h3>
-		  <p>Software Developer | Freelancer | iOS App Developer</p>
-		  
-       
-			  
-		  <!--────social media links─────-->
-			 
-		  <div class="social-media">
-			  <a href="https://youtube.com/@CyberSecuritySWE?si=Wf-hkvPOX6QEyCzS" target="_blank"><i class='fab fa-youtube'></i></a>
-			  <a href="https://github.com/softwaredevomar" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="https://www.linkedin.com/in/softwaredevomar/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-		    </div>
-			 
-		 </section> 
-	  </div>  
-		
-	  <!--───────────────Projects───────────────-->
-	  <div id="projects"> 
-		 <h3>My Projects.<hr></h3>
-		  <p>Here are some of my projects.</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
-			    <a href="https://replit.com/@softwaredevomar/React-Recorder" target="_blank"> <!--Link to project-->
-				<div class="work-content">Video Audio Recorder</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
-				<a href="https://replit.com/@softwaredevomar/repl-chat-server" target="_blank"> <!--Link to project-->
-				<div class="work-content">Chat App with Node.JS (Server)</div></a>
-            </div>
-        <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-				<a href="https://replit.com/@softwaredevomar/repl-chat-client" target="_blank"> <!--Link to project-->
-				<div class="work-content">Chat App with Node.JS (Client)</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-				<a href="https://replit.com/@softwaredevomar/stripe-checkout-server" target="_blank"> <!--Link to project-->
-				<div class="work-content">Ecommerce Store Checkout with Stripe (Server)</div></a>
-            </div>
-        <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-				<a href="https://replit.com/@softwaredevomar/BrickSite" target="_blank"> <!--Link to project-->
-				<div class="work-content">Ecommerce Store Checkout with Stripe (Client)</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="https://www.healthequalsfreedom.com/wp-content/uploads/2019/03/BMI-Chart.gif">
-				<a href="https://github.com/softwaredevomar/BMI-Calculator" target="_blank"> <!--Link to project-->
-				<div class="work-content">iOS App BMI Calculator</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://wallpaperaccess.com/full/3872553.jpg">
-				<a href="https://github.com/softwaredevomar/Destini" target="_blank"> <!--Link to project-->
-				<div class="work-content">iOS App Destini Story</div></a>
-            </div>
-        <div class="card">
-			    <img class="work-img" src="https://cdn.pixabay.com/photo/2022/11/28/15/36/toy-7622312_1280.png">
-				<a href="https://github.com/softwaredevomar/Xylophone" target="_blank"> <!--Link to project-->
-				<div class="work-content">iOS App Xylophone</div></a>
-            </div>
-		  </div>
-		  </div>
-	  </div>
-		<!--──────────────Certifications────────────────-->
-	  <div id="certifications">
-		  <h3 id="certs-heading">Certs.<hr></h3>
-		  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="13ca1a24-2f60-4e01-a2f1-92a0c33627ee" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-		  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2bce2ea1-12f7-4138-9ca3-441d2dedef87" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-	          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dedc4242-b074-4464-a4d6-1da710553060" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-		  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b4bd5ab8-6299-4ead-990e-f96f48a5e042" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-	  </div>
-		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		   <h3>Contact.<hr></h3>
-		   <p>Not available to be contacted at the moment.</p>
-	  </div>
+		<div class="container">
 
-	</main>
-	  <footer class="copyright">© 2025
-		  <a href="https://replit.com/@softwaredevomar" target="_blank"> Omar Ahmed</a>
-        
-     </footer>
-	  
-  </div>
-  </body>
+			<!--────────────────Header───────────────-->
+			<header>
+				<a class="logo" href="#home">
+					<img src="./assets/Me.jpg" alt="omar logo" />
+				</a>
+				<nav>
+					<ul class="nav-bar">
+						<div class="bg"></div>
+						<li><a class="nav-link active" href="#home">Home</a></li>
+						<li><a class="nav-link" href="#projects">Projects</a></li>
+						<li><a class="nav-link" href="#certifications">Certifications</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+					</ul>
+					
+					<div class="hamburger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+				</nav>
+			</header>
+			<main>
+				<!--─────────────────Home────────────────-->
+				<div id="home">
+					<div class="filter"></div>
+					<section class="intro">
+					<h3>Omar Ahmed<hr></h3>
+					<p>Software Developer | Freelancer | iOS App Developer</p>
+					
+					
+					
+					<!--────social media links─────-->
+					
+					<div class="social-media">
+						<a href="https://youtube.com/@CyberSecuritySWE?si=Wf-hkvPOX6QEyCzS" target="_blank"><i class='fab fa-youtube'></i></a>
+						<a href="https://github.com/softwaredevomar" target="_blank"><i class='fab fa-github'></i></a>
+						<a href="https://www.linkedin.com/in/softwaredevomar/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+					</div>
+					
+					</section> 
+				</div>  
+				
+				<!--───────────────Projects───────────────-->
+				<div id="projects"> 
+					<h3>My Projects.<hr></h3>
+					<p>Here are some of my projects.</p>
+					<div class="work-box">
+						<div class="work">
+							<!--───────────────card───────────────-->
+							<div class="card">
+								<img class="work-img" src="https://raw.githubusercontent.com/softwaredevomar/Isotope-Neutron-Calc/main/Isotope%20Neutron%20Calc/Assets.xcassets/AppIcon.appiconset/appstore.png">
+								<a href="https://github.com/softwaredevomar/Isotope-Neutron-Calc" target="_blank"> <!--Link to project-->
+									<div class="work-content">Isotope Neutron Calc</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--──────────────Certifications────────────────-->
+				<div id="certifications">
+					<h3 id="certs-heading">Certs.<hr></h3>
+					<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="13ca1a24-2f60-4e01-a2f1-92a0c33627ee" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+					<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2bce2ea1-12f7-4138-9ca3-441d2dedef87" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+					<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dedc4242-b074-4464-a4d6-1da710553060" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+					<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b4bd5ab8-6299-4ead-990e-f96f48a5e042" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+				</div>
+				<!--──────────────Contact────────────────-->
+				<div id="contact">
+					<!--────social media links─────-->
+					<h3>Contact.<hr></h3>
+					<p>Not available to be contacted at the moment.</p>
+				</div>
+			</main>
+			<footer class="copyright">© 2025
+				<a href="https://replit.com/@softwaredevomar" target="_blank"> Omar Ahmed</a>
+			</footer>
+		
+		</div>
+	</body>
 </html>
